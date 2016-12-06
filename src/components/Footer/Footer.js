@@ -16,6 +16,10 @@ class Footer extends Component {
             <span className="fa fa-twitter link-list__item__icon"></span>
             <a href="https://twitter.com/calebissharp" className="link-list__item__link">@calebissharp</a>
           </li>
+          <li className="link-list__item">
+            <span className="fa fa-envelope link-list__item__icon"></span>
+            <a href="mailto:epicsharp11@gmail.com" className="link-list__item__link">epicsharp11@gmail.com</a>
+          </li>
         </ul>
         <img className="Footer__logo" src={logo} />
       </div>
