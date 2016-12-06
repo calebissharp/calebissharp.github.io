@@ -6,15 +6,16 @@
 }
 
 .Header__title {
-  font-size: 3em;
+  font-size: 4em;
   color: #fff;
   font-family: "Source Sans Pro";
   font-weight: 300;
 }
 
 .Header__subtitle {
-  font-size: 1.2em;
-  color: #fff;
+  font-size: 1.5em;
+  color: #9E9E9E;
+  font-weight: 300;
 }
 
 @media only screen and (max-width: 480px) {
