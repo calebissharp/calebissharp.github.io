@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Row, Col, Grid } from 'react-bootstrap';
 import logo from '../../logo.svg';
 import './App.css';
 
@@ -12,7 +13,16 @@ class App extends Component {
       <div className="App">
         <Header />
         <div className="App__content">
-          <Card />
+          <Grid>
+            <Row>
+              <Col sm={6}>
+                <Card title="About me" />
+              </Col>
+              <Col sm={6}>
+                <Card title="What I can do" />
+              </Col>
+            </Row>
+          </Grid>
         </div>
         <Footer />
       </div>

@@ -1,1 +1,8 @@
+.App__content {
+  padding-top: 20px;
+  display: block;
+}
 
+.App {
+  min-height: 100%;
+}
