@@ -10,13 +10,3 @@
 .Card__title {
   font-family: "Source Sans Pro";
 }
-
-@media only screen and (max-width: 480px) {
-  .Card__title {
-    text-align: center;
-  }
-
-  .Card {
-    margin-bottom: 10px;
-  }
-}
