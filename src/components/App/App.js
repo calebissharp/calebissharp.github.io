@@ -12,18 +12,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <div className="App__content">
-          <Grid>
-            <Row>
-              <Col sm={6}>
-                <Card title="About me" />
-              </Col>
-              <Col sm={6}>
-                <Card title="What I can do" />
-              </Col>
-            </Row>
-          </Grid>
-        </div>
+        <div className="App__content"></div>
         <Footer />
       </div>
     );
