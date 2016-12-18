@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Footer.css';
 
 import logo from '../../quantum-no-text-small-grayscale.svg';
+import FooterIcon from '../FooterIcon/FooterIcon';
 
 class Footer extends Component {
   render() {
@@ -9,19 +10,18 @@ class Footer extends Component {
       <div className="Footer">
         <ul className="link-list">
           <li className="link-list__item">
-            <span className="fa fa-github link-list__item__icon"></span>
-            <a href="https://github.com/epicsharp" className="link-list__item__link">epicsharp</a>
+            <FooterIcon url="https://github.com/epicsharp" icon="github" />
           </li>
           <li className="link-list__item">
-            <span className="fa fa-twitter link-list__item__icon"></span>
-            <a href="https://twitter.com/calebissharp" className="link-list__item__link">@calebissharp</a>
+            <FooterIcon url="https://twitter.com/calebissharp" icon="twitter" />
           </li>
           <li className="link-list__item">
-            <span className="fa fa-envelope link-list__item__icon"></span>
-            <a href="mailto:epicsharp11@gmail.com" className="link-list__item__link">epicsharp11@gmail.com</a>
+            <FooterIcon url="https://www.instagram.com/calebissharp" icon="instagram" />
+          </li>
+          <li className="link-list__item">
+            <FooterIcon url="mailto:calebissharp@gmail.com" icon="envelope" />
           </li>
         </ul>
-        <img className="Footer__logo" src={logo} />
       </div>
     );
   }
