@@ -6,11 +6,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .link-list {
   padding: 0;
   list-style-type: none;
+  animation: fadein-up 1s;
 }
 
 .link-list__item {
