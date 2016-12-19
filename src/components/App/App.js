@@ -10,7 +10,7 @@ import Footer from '../Footer/Footer';
 const about = `
   # About me
 
-  My name is Caleb Sharp, and I'm a developer. Creating software is
+  My name is Caleb Sharp, I'm 14, and I'm a developer. Creating software is
   a very dear passion of mine. I also enjoy skiing and mountain biking, and work
   best with a cup of coffee (or maybe 5) in front of me.
   Some people might paint pictures, or take photographs, but I have found that
