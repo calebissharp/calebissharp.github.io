@@ -30,7 +30,7 @@ const about = `
 const portfolio = `
   # What I've made
 
-  * As of right now, this site is the only thing that I have to prove my skills with.
+  * As of right now, this site is the only (real) thing that I have to prove my skills with.
     It was made from scratch with React.
     If would be great if you gave me a chance to show you what I can do! You can
     send any inquiries to my email at [calebissharp@gmail.com](mailto:calebissharp@gmail.com)
