@@ -1,20 +1,16 @@
-import React, { Component, PropTypes } from 'react';
+import React, { PropTypes } from 'react';
 import './Card.css';
 
-class Card extends Component {
-  static propTypes = {
-    title: PropTypes.string.isRequired,
-  }
+const Card = ({ children }) => (
+  <div className="Card">
+    <div className="Card__content">
+      {children}
+    </div>
+  </div>
+);
 
-  render() {
-    return (
-      <div className="Card">
-        <div className="Card__content">
-          {this.props.children}
-        </div>
-      </div>
-    );
-  }
-}
+Card.propTypes = {
+  children: PropTypes.any,
+};
 
 export default Card;

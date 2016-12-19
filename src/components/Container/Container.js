@@ -1,18 +1,14 @@
-import React, { Component, PropTypes } from 'react';
+import React, { PropTypes } from 'react';
 import './Container.css';
 
-class Container extends Component {
-  static propTypes = {
-    children: PropTypes.arrayOf(PropTypes.any),
-  }
+const Container = ({ children }) => (
+  <div className="Container">
+    {children}
+  </div>
+);
 
-  render() {
-    return (
-      <div className="Container">
-        {this.props.children}
-      </div>
-    );
-  }
-}
+Container.propTypes = {
+  children: PropTypes.any,
+};
 
 export default Container;

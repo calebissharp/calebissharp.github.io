@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Markdown from 'react-remarkable';
 import './App.css';
 
@@ -36,25 +36,21 @@ const portfolio = `
     send any inquiries to my email at [calebissharp@gmail.com](mailto:calebissharp@gmail.com)
 `;
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <Header />
-        <div className="App__content">
-          <Container>
-            <Card>
-              <Markdown source={about} />
-            </Card>
-            <Card>
-              <Markdown source={portfolio} />
-            </Card>
-          </Container>
-        </div>
-        <Footer />
-      </div>
-    );
-  }
-}
+const App = () => (
+  <div className="App">
+    <Header />
+    <div className="App__content">
+      <Container>
+        <Card>
+          <Markdown source={about} />
+        </Card>
+        <Card>
+          <Markdown source={portfolio} />
+        </Card>
+      </Container>
+    </div>
+    <Footer />
+  </div>
+);
 
 export default App;

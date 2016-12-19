@@ -1,16 +1,17 @@
-import React, { Component } from 'react';
+import React, { PropTypes } from 'react';
 import './FooterIcon.css';
 
-class FooterIcon extends Component {
-  render() {
-    return (
-      <div className="FooterIcon">
-        <a href={this.props.url} target="_blank" className="FooterIcon__link">
-          <span className={`fa fa-${this.props.icon} FooterIcon__link__icon`}></span>
-        </a>
-      </div>
-    );
-  }
-}
+const FooterIcon = ({ url, icon }) => (
+  <div className="FooterIcon">
+    <a href={url} target="_blank" className="FooterIcon__link">
+      <span className={`fa fa-${icon} FooterIcon__link__icon`}></span>
+    </a>
+  </div>
+);
+
+FooterIcon.propTypes = {
+  url: PropTypes.string,
+  icon: PropTypes.string,
+};
 
 export default FooterIcon;
