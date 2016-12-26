@@ -7,7 +7,7 @@ const Footer = () => (
   <div className="Footer">
     <ul className="link-list">
       <li className="link-list__item">
-        <FooterIcon url="https://github.com/epicsharp" icon="github" />
+        <FooterIcon url="https://github.com/calebissharp" icon="github" />
       </li>
       <li className="link-list__item">
         <FooterIcon url="https://twitter.com/calebissharp" icon="twitter" />
