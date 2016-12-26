@@ -21,7 +21,7 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
-    "deploy": "npm run build&&gh-pages -d build"
+    "deploy": "npm run build&&gh-pages -d build --branch master"
   },
-  "homepage": "https://calebissharp.github.io/me"
+  "homepage": "https://www.calebissharp.com"
 }
